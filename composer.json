@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "playbuff\\": "vendor/playbuff/core",
+            "app\\": "app"
+        }
+    },
+    "require": {
+        "vlucas/valitron": "^1.4",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

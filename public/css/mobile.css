@@ -1,0 +1,893 @@
+@media (max-width: 1199px) {
+  html {
+    font-size: 9px;
+  }
+  .titles {
+    font-size: 22px;
+  }
+  .main__payments--wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main__payments--wrapper .payments--ms {
+    width: 64px;
+    height: 64px;
+  }
+  .main__payments--wrapper .payments--vs {
+    width: 118px;
+    height: 37px;
+  }
+  .main__payments--wrapper .payments--btc {
+    width: 64px;
+    height: 64px;
+  }
+  .main__payments--wrapper .payments--usdt {
+    width: 64px;
+    height: 64px;
+  }
+  .main__payments--wrapper .payments--qiwi {
+    width: 64px;
+    height: 64px;
+  }
+  .header .header__logo a {
+    font-size: 22px;
+  }
+  .main__slider--pgame .slide-name .main__slider--buy, .main__slider--pgame .slide-name .main__slider--card {
+    padding: 10px 20px;
+  }
+  
+  #sliderControls {
+    padding: 8px 20px;
+  }
+}
+@media (max-width: 1079px) {
+  .header, .main, .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main__news--wrapper .main__news--card {
+    width: 33%;
+  }
+  .main__news--wrapper .main__news--card img {
+    height: auto;
+    width: 100%;
+  }
+  .main__news--readmoreBtn {
+    padding: 10px 20px;
+  }
+  .main__roulette .main_roulette--boxes .boxes--playBtn {
+    padding: 11px 50px;
+  }
+  .main__slider--pgame .slide-img img {
+    width: 250px;
+    height: auto;
+  }
+  .main__news--wrapper .main__news--title {
+    margin-bottom: 13px;
+  }
+  .main__howWorks--wrapper .howWorks--info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .main__howWorks--wrapper .howWorks--info span {
+    padding: 0 20px;
+    display: block;
+  }
+  .main__howWorks--wrapper .howWorks--arrow {
+    display: none;
+  }
+  .main__payments--wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #cartModal {
+    display: none;
+  }
+
+  .main__news--wrapper .main__news--card {
+    display: block;
+    margin-bottom: 40px;
+    position: relative;
+    width: calc((100% / 2) - (1rem / 2));
+    margin-right: 1rem;
+  }
+  
+  .main__news--wrapper .main__news--card:nth-child(2n) {
+    margin-right: 0;
+  }
+  .main__news--wrapper .main__news--card:nth-child(3n) {
+    margin-right: 1rem;
+  }
+
+}
+@media (max-width: 1000px) {
+  .main__games .main__games--card {
+    width: 24%;
+  }
+  .main__games img {
+    width: 100%;
+    height: auto;
+  }
+  .main__product--info .product__info--title {
+    margin-top: 15px;
+  }
+  .slider-dots img {
+    width: 100%;
+    height: auto;
+  }
+  .main__product--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main__product--wrapper .product__slide {
+    width: 70%;
+  }
+  .main__product--wrapper .product__slide--content img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .slider-dots {
+    width: 28%;
+  }
+  .main__product--info .product__info--title {
+    font-size: 48px;
+  }
+}
+@media (max-width: 950px) {
+  .main__slider--pgame .slide-img img {
+    width: 230px;
+    height: auto;
+  }
+  .main__roulette {
+    margin-top: 60px;
+  }
+  .slider-dots {
+    height: 300px;
+  }
+  .main__slider--pgame .slide-name {
+    width: 55%;
+  }
+  .main__slider--pgame .slide-name .main__slider--gameName {
+    font-size: 32px;
+  }
+  header .header__nav ul li {
+    margin-left: 60px;
+  }
+  .main__slider--pgame .slide-name p {
+    height: 90px;
+    overflow: hidden;
+  }
+  .main__slider--pgame .slide-name .main__slider--gameName {
+    padding: 20px 0;
+  }
+  .main__slider--pgame .slide-name .main__slider--descLink {
+    margin: 15px 0;
+  }
+  .main__slider--pgame .slide-name .main__slider--price {
+    padding: 16px 0;
+  }
+}
+@media (max-width: 800px) {
+  .main__slider--pgame .slide-img img {
+    width: 200px;
+    height: auto;
+  }
+  .main__slider--pgame .slide-name .main__slider--price {
+    font-size: 16px;
+  }
+
+  .main__games .main__games--card {
+    margin-right: 0rem;
+  } 
+
+  header .header__nav ul li {
+    margin-left: 40px;
+  }
+  .main .main__navbar a, #main__navbar--title, #main__navbar--user li a {
+    font-size: 13px;
+  }
+  .main__roulette {
+    margin-top: 50px;
+  }
+  .header .header__logo a {
+    font-size: 20px;
+  }
+  .slider-dots {
+    height: 250px;
+  }
+  .main__cart {
+    width: auto;
+  }
+  .main__games .main__games--wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+            
+    gap: 1%;
+  }
+  .main__games .main__games--card {
+    margin-right: 0;
+    width: calc((100% / 3) - (2rem / 3));
+  }
+  .question__content {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  .question__content img {
+    width: 70%;
+    height: auto;
+  }
+}
+@media (max-width: 740px) {
+  #header__nav--response {
+    display: none;
+  }
+
+  .recentlyViewedTitle {
+    margin: 10px 0 30px 0 !important;
+  }
+
+  .main__games .main__games--wrapper {
+    justify-content: space-between;
+  }
+
+  .main__games .main__games--card {
+    -ms-flex-preferred-size: 32.2580645161%;
+        flex-basis: 32.2580645161%;
+  }
+  .main__games .main__games--wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+            
+    gap: 1.5%;
+  }
+  #header__nav--mobile {
+    display: block;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #header__nav--mobile::after {
+    content: "";
+    background: url("../icons/menu.svg");
+    background-size: 100% 100%;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  header .header__nav ul li {
+    margin-left: 0;
+  }
+  header .header__nav ul li {
+    border: none;
+  }
+  header .header__nav ul li:hover {
+    border: none !important;
+  }
+  #header__nav--mobile_version {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #fff;
+    text-align: center;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header__nav--mobile_version li a {
+    font-size: 20px;
+  }
+  #header__nav--mobile_version #closeBtn {
+    color: #a8a8a8;
+  }
+  .header__nav #header__nav--response {
+    display: none;
+  }
+  .main__slider--pgame .slide-name .main__slider--gameName {
+    padding: 13px 0;
+    font-size: 24px;
+  }
+  .main__slider--pgame .slide-name .main__slider--descLink {
+    margin: 15px 0;
+  }
+  .main__slider--pgame .slide-name .main__slider--price {
+    padding: 12px 0;
+  }
+  #main__navbar--user li a {
+    padding: 3px 5px 3px 6px;
+  }
+  .main__slider--pgame .slide-name .main__slider--buy, .main__slider--pgame .slide-name .main__slider--card {
+    padding: 7px 23px;
+  }
+  #sliderControls {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
+  .main .main__navbar {
+    padding-right: 20px;
+  }
+  .titles {
+    font-size: 18px;
+  }
+  .header__container {
+    padding: 40px 0;
+  }
+  .main__news--wrapper .main__news--views {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main__news--wrapper .main__news--views {
+    font-size: 14px;
+  }
+  .main__news--wrapper .main__news--views img {
+    width: 16px;
+    height: 16px;
+    top: 0px;
+  }
+  .main__news--wrapper .main__news--title a {
+    font-size: 14px;
+  }
+  .main__roulette {
+    margin-top: 40px;
+  }
+  .main__roulette .main_roulette--boxes .roulette-title {
+    font-size: 14px;
+    padding: 11px 0;
+  }
+  .main__roulette .main_roulette--boxes img {
+    width: 90px;
+    height: auto;
+    margin: 45px auto;
+  }
+  .main__roulette .main_roulette--boxes .boxes--price {
+    padding: 20px 0;
+  }
+  .main__roulette .main_roulette--boxes .boxes--price_legend {
+    font-size: 15px;
+  }
+  .main__roulette .main_roulette--boxes .boxes--playBtn {
+    padding: 9px 35px;
+  }
+  .main__roulette .main_roulette--boxes .main_roulette--common .boxes--desc, .main__roulette .main_roulette--boxes .main_roulette--legend .boxes--desc {
+    height: 115px;
+    display: inline-block;
+    padding: 15px;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .main__roulette .main_roulette--boxes .main_roulette--common .boxes--desc span, .main__roulette .main_roulette--boxes .main_roulette--legend .boxes--desc span {
+    display: block;
+    font-size: 13px;
+  }
+  .main__roulette .main_roulette--boxes {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .main__games .main__games--pagination ul li a {
+    font-size: 14px;
+  }
+  .main__roulette .main_roulette--boxes .rareBx {
+    -webkit-clip-path: none;
+            clip-path: none;
+    top: 0;
+  }
+  .main__roulette .main_roulette--boxes .rareBx h4 {
+    top: 0;
+  }
+  .main__games .card--title {
+    margin: 18px 0 15px 0;
+  }
+  .main__games .card--shops {
+    margin-bottom: 11px;
+  }
+  .main__games .card-presence {
+    margin-bottom: 10px;
+  }
+  .main__games .card--btn {
+    border: 2px solid #E6C30B;
+    padding: 8px 0;
+  }
+  .main__games .card--btn:hover, .main__games .card--btn:focus {
+    background: #E6C30B;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  .main__games .main__games--card {
+    margin-bottom: 20px;
+  }
+  .main__games .card--btn::before {
+    content: none;
+  }
+  .main__games .card--price {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .main__howWorks--wrapper .howWorks--info {
+    line-height: 18px;
+  }
+  .main__news--wrapper .main__news--title {
+    line-height: 20px;
+    overflow: hidden;
+  }
+  .main__news--mainTitle {
+    margin-bottom: 30px;
+  }
+  .main__cart .cart__content--product {
+    width: 60%;
+  }
+}
+@media (max-width: 680px) {
+
+  .main__slider--pgame .slide-img img {
+    width: 160px;
+    height: auto;
+  }
+  .main__cart img {
+    width: 100px;
+    height: auto;
+  }
+  .main__cart .cart__content--name, .main__cart .cart__content--presence, .main__cart .cart__content--shop {
+    margin-bottom: 30px;
+  }
+  .main__cart .cart__content--promocode, .cart__content--delete, .cart__content--pay {
+    font-size: 12px;
+  }
+  .main__cart .cart__content--name {
+    font-size: 16px;
+  }
+}
+@media (max-width: 630px) {
+  #main__view--navbtn {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 0;
+    background: #000;
+    width: 100%;
+    color: #fff;
+  }
+  .main__product--wrapper .product__slide {
+    width: 100%;
+  }
+  .main__product--wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .product__slide--title {
+    margin-top: 15px;
+  }
+  .slider-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px 0;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 120px;
+  }
+  .main__product--info .product__info--title {
+    width: 70%;
+  }
+  .main__product--info .product__info--desc {
+    width: 100%;
+  }
+  .main .main__view {
+    display: block;
+    overflow: hidden;
+  }
+  .main .main__navbar {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+    display: none;
+  }
+  .main .main__navbar a, #main__navbar--title {
+    display: none;
+  }
+  .main .main__navbar li a {
+    padding: 14px 0;
+    font-weight: 500;
+  }
+  #main__navbar--user li a {
+    border-left: none;
+    font-weight: bold;
+  }
+  .main__slider--pgame .slide-name {
+    float: none;
+    display: block;
+  }
+  .main__slider--pgame .slide-img {
+    float: left;
+    margin: 20px 0 20px 0;
+    width: 28%;
+  }
+  .main__slider--pgame .slide-name {
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 70%;
+  }
+  .main .main__slider {
+    width: auto;
+  }
+  .main__roulette .main_roulette--boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .main__roulette .main_roulette--rare {
+    margin-bottom: 20px;
+  }
+  .main__roulette .main_roulette--boxes #main_rBox {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main__roulette .main_roulette--boxes img {
+    width: 120px;
+    height: auto;
+  }
+  .main__slider--pgame .slide-name .main__slider--gameName {
+    width: auto;
+  }
+  .main__roulette .main_roulette--boxes .main_roulette--common .boxes--desc, .main__roulette .main_roulette--boxes .main_roulette--legend .boxes--desc {
+    background: #fff;
+    color: #000;
+    height: 70px;
+  }
+  .main__profile--title {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .cart__content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main__cart img {
+    width: 100px;
+    height: auto;
+  }
+  .main__cart .main__cart--title {
+    margin-top: 15px;
+  }
+
+  .news__info--title {
+    margin-top: 20px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #E6C30B;
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+  
+  .singUp__content {
+    flex-direction: column;
+  }
+
+  .filter-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-item label {
+    margin-bottom: 10px;
+  }
+  
+}
+@media (max-width: 590px) {
+  .main__games .main__games--card {
+    width: 48%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .main__games .main__games--wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main__news--wrapper .main__news--card {
+    width: 48%;
+    margin-bottom: 18px;
+  }
+  .main__news--wrapper .main__news--title a {
+    height: 50px;
+    overflow: hidden;
+    display: block;
+  }
+  .main__news--wrapper .main__news--title {
+    height: auto;
+  }
+  .main__howWorks--wrapper .howWorks--info span {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .main__search--wrapper form {
+    width: 100%;
+  }
+  .main__search--wrapper input[type=text] {
+    width: 100%;
+  }
+
+}
+@media (max-width: 470px) {
+  .main__howWorks--wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__howWorks--wrapper .howWorks--info {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .main__payments--wrapper {
+    padding: 0;
+  }
+  .main__product--info .product__info--title {
+    font-size: 32px;
+    margin-left: 0;
+  }
+  .main__product--info .product__info--desc {
+    margin-top: 15px;
+  }
+  .main__product--info .product__info--tags {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__product--info .product__info--tags li {
+    margin-bottom: 3px;
+  }
+  .footer {
+    padding: 30px 20px 30px 20px;
+  }
+  .footer h6, .footer span {
+    font-size: 12px;
+  }
+  .main__product--info .product__info--btn {
+    padding: 10px 20px;
+  }
+  .main__payments .main__payments--wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main__payments .main__payments--wrapper .payments--ms {
+    width: 54px;
+    height: 54px;
+  }
+  .main__payments .main__payments--wrapper .payments--vs {
+    width: 54px;
+    height: 54px;
+  }
+  .main__payments .main__payments--wrapper .payments--btc {
+    width: 54px;
+    height: 54px;
+  }
+  .main__payments .main__payments--wrapper .payments--usdt {
+    width: 54px;
+    height: 54px;
+  }
+  .main__payments .main__payments--wrapper .payments--qiwi {
+    width: 54px;
+    height: 54px;
+  }
+  .main__cart .main__cart--title {
+    font-size: 32px;
+  }
+  
+  .range-wrap #range {
+    width: 50%;
+  }
+}
+@media (max-width: 420px) {
+  #promotionDiscount {
+    margin-bottom: -10px;
+  }
+
+  .main__slider--pgame .slide-img {
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .main__slider--pgame .slide-img img {
+    display: block;
+    width: 100%;
+  }
+  .main__slider--pgame .slide-img {
+    margin-bottom: 10px;
+  }
+  .main__slider--pgame .slide-name {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .slide .slide-name h3 {
+    font-size: 16px;
+  }
+  .main__games .main__games--card {
+    width: 100%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .main__news--wrapper .main__news--card {
+    margin-bottom: 14px;
+    width: 100%;
+  }
+  .main__howWorks--title {
+    margin: 20px 0;
+  }
+  .main__news--readmoreBtn {
+    margin-top: 10px;
+  }
+  .main__howWorks--wrapper .howWorks--info span {
+    font-size: 14px;
+  }
+  .cart__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__cart .cart__content--product {
+    width: 100%;
+  }
+  .main__cart .cart__content--nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .main__cart .cart__content--pay {
+    position: relative;
+  }
+  .main__cart .cart__content--promocode {
+    margin-bottom: 5px;
+  }
+  .main__cart .cart__content--promocode, .main__cart .cart__content--delete {
+    margin-bottom: 8px;
+  }
+
+  .main__games #hrefImg {
+    height: auto;
+  }
+
+  .title--recomm {
+    margin: -30px 0 20px 0 !important;
+  }
+  
+  .breadcrumbs {
+    margin-bottom: 20px;
+  }
+  .breadcrumbs ul li {
+    margin-right: 3px;
+  }
+
+  .breadcrumbs ul li a, .breadcrumbs ul li {
+    font-size: 12px;
+  }
+  
+  .main__cart .main__cart-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .main__search--wrapper form {
+    justify-content: space-around;
+  }
+
+  #articlePageImg {
+    margin-top: 20px;
+  }
+
+  .news__info--title {
+    font-size: 16px;
+    max-width: 100%;
+    border-bottom: 2px solid #E6C30B;
+    padding-bottom: 10px;
+  }
+
+  #articleBackBtn {
+    padding: 7px 12px;
+  }
+
+  .main__product--info .product__info--title {
+    width: 100%;
+  }
+
+  .signupTitle {
+    margin-top: 20px;
+  }
+
+  .signupForm input[type="text"], .signupForm input[type="password"], .loginForm input[type="text"], .loginForm input[type="password"] {
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #signupBtn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .main__slider--buy, .slide .next {
+    width: 25%;
+    display: flex;
+    text-align: center;
+  }
+
+  .main__slider--buy {
+    width: 50%;
+  }
+  
+  .slider--controlls {
+    display: flex;
+    width: 100%;
+  }
+
+  .main__games--fullBtn, .main__news--readmoreBtn, .add-to-cart, #articleBackBtn {
+    padding: 9px 12px;
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .main__search--wrapper form {
+    width: 100%;
+    display: flex;
+  }
+
+  .main__search--wrapper form span {
+    width: 65%;
+    display: block;
+  }
+
+  .main__search--wrapper form input {
+    width: 35%;
+    display: block;
+  }
+
+  .main__news--wrapper .main__news--title a {
+    height: auto;
+  }
+}
